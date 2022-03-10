@@ -1,0 +1,46 @@
+#Ganesanu Gigi Florin 324CA
+
+----Crypto----
+
+    In aceasta problema am format o structa de tip coin si 2
+2 functii una de citire si scriere, m am inspirat din laborator
+cu aceste functii. Am sortat vectorul de coinuri dupa numarul 
+de coinuri cu o functie deja definita in cpp, apoi cu un for 
+am luat la rand toate elementele si adunam costul unui upgrade
+la costul total si luam la rand daca primeam o secventa sa 
+zicem de 2 2 2 3 pana intalnea 3 vedeam daca pot sa fac upgrade
+pe ele si tot asa sau poate sa sara in functie de buget si
+cost total cu un numar mai mare de upgradeuri. La aceasta
+problema complexitatea a fost de O(nlogn).
+
+----Stocks----
+
+    In aceasta problema am format o structa de tip stock cu 3
+elemente si 2 functiile de citire la fel ca la primul ex doar ca
+adaptate pentru problema mea, apoi am format un vector 
+tridimensional la fel ca in problema rusacului din lab. apoi am
+format 3 foruri pentru fiecare dimensiune a matricei in care 
+am salvat valoarea unei actiuni in variabila investii am calculat 
+loseul maxim si profitul maxim apoi verificam daca obiectul 
+curent se incadreaza. Aceasta problema are complexita O(n*b*l).
+
+----Valley----
+
+    In aceasta problema am creat un vector si 2 functii una de 
+citire si una de scriere apoi caut cel mai mic numar din secventa
+si imi setez partea din dreapta lui si partea din stanga astfel
+incat sa respecte cerinta. Am mai luat niste conditii in plus
+in caz ca cel mai mic element e primul sau ultimul si afisez 
+numarul de blocuri sapate. Aceasta problema are complexitatea O(n)
+
+----Ridge---
+
+    In aceasta problema am creat o structura cu 2 elemente inaltime
+si cost si 4 functii de citire si scriere  si una care imi calculeaza
+minimul cu 2 elemente si una cu 3 elemente mi am declarat o matrice
+de n + 1 linii si 3 coloane apoi cu un for am intrat sa calculez 
+diferenta dintre munti si am luat cazurile pe rand. Cazurile au fost
+de a vedea daca un munte este mai mare sau mai mic cu 1 2 unitati
+sau egal. Aceasta problema are complexitatea O(n).
+
+
